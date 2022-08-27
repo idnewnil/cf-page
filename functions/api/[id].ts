@@ -6,7 +6,7 @@ interface Data {}
 
 type Context = EventContext<Env, "id", Data>;
 
-export async function onRequestGet() {
+export async function onRequest() {
   return new Response("Hello, world!");
 }
 
